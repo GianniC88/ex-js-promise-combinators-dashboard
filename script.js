@@ -302,3 +302,22 @@ getDashboardData('London')
   })
   .catch(error => console.error(error));
 
+
+
+/*
+const videogiochi = [
+  { nome: "Zelda", anno: 2017 },
+  { nome: "God of War", anno: 2018 },
+  { nome: "RDR2", anno: 2018 },
+  { nome: "Elden Ring", anno: 2022 },
+  { nome: "Cyberpunk", anno: 2020 }
+];
+
+const isBefore2020 = videogiochi.filter((v) => v.anno < 2020)
+
+map -> nuovo Array, stesso numero di elementi, si usa per trasformare i valori
+filter -> nuovo array con elementi che soddisfano una condizione
+find -> il primo elemento che soddisfa una condizione
+sort -> ordinare l'array
+some -> restituisce un booleano, true se almeno un elemento soddisfa una condizione
+every -> restitusce un booleano, true se tutti gli elementi sodisfano una condizione*/
